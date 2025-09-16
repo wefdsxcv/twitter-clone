@@ -40,7 +40,7 @@ CLERK_SECRET_KEY
                                       v
                                 [認証OKなら処理実行]
 
-app/layout.tsx　MyAppコンポーネント（全ページ共通の「ラッパーコンポーネント」、全ページに設定が適応される）にClerkProvider（ClerkProvider は 認証のコンテキスト を提供してくれるコンポーネント）
+app/layout.tsx　MyAppコンポーネント（全ページ共通の「レイヤーコンポーネント」、全ページに設定が適応される）にClerkProvider（ClerkProvider は 認証のコンテキスト を提供してくれるコンポーネント）
 import { ClerkProvider } from "@clerk/nextjs";
 import type { AppProps } from "next/app";
 
