@@ -1,6 +1,6 @@
 # twitter-clone
 twitterの技術に興味を持ったため。
-フロントエンドnext.js バックエンドexpress 
+フロントエンドnext.js　Tailwindcss バックエンドexpress 
 使用言語　typescript
 DB　開発: SQLite 本番: Neon(PostgreSQL)
 ORM: Prisma
@@ -25,8 +25,6 @@ axios(HTTPリクエストを送るためのライブラリ　fetchの便利版)
 
 .envファイルの内容（clerkにログインしてコピー）
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY
-公開しても良いキー（フロントエンドで使う用）
-名前に NEXT_PUBLIC_ がついている変数は ブラウザ側にも渡る
 Clerk のUIコンポーネントやログイン画面を表示する時に必要
 CLERK_SECRET_KEY
 検証用key　(公開してはいけない）
